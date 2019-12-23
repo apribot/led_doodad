@@ -15,7 +15,7 @@ int delayval = 10;
 uint16_t hue = 0;
 
 void setup() {
-  pixels.begin(); // INITIALIZE NeoPixel strip object (REQUIRED)
+  pixels.begin();
 }
 
 void loop() {
